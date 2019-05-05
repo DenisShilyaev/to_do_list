@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Список дел на сегодня</title>
+    <link rel="stylesheet" href="material-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div id="root">
+    <div class="container">
+        <h3>Добавить дело</h3>
+        <input id="new-task" type="text">
+        <button id="add">Добавить</button>
+        <h3>Список дел</h3>
+        <ul id="unfinished-tasks">
+            <li>
+                <button class="material-icons checkbox">
+                    <i class="material-icons">check_box_outline_blank</i>
+                </button>
+                <label>123</label>
+                <input type="text">
+                <button class="material-icons delete">
+                    <i class="material-icons">delete</i>
+                </button>
+                <button class="material-icons edit">
+                    <i class="material-icons">edit</i>
+                </button>
+            </li>
+            <li class="editMode">
+                <button class="material-icons checkbox">
+                    <i class="material-icons">check_box_outline_blank</i>
+                </button>
+                <label>123</label>
+                <input type="text" value="123">
+                <button class="material-icons delete">
+                    <i class="material-icons">delete</i>
+                </button>
+                <button class="material-icons save">
+                    <i class="material-icons">save</i>
+                </button>
+            </li> 
+        </ul>
+        <h3>Завершенные дела</h3>
+        <ul id="finished-tasks">
+            <li>
+                <button class="material-icons checkbox">
+                    <i class="material-icons">check_box</i>
+                </button>
+                <label>123</label>
+                <input type="text">
+                <button class="material-icons delete">
+                    <i class="material-icons">delete</i>
+                </button>
+                <button class="material-icons edit">
+                    <i class="material-icons">edit</i>
+                </button>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
