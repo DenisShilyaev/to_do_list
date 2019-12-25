@@ -5,4 +5,4 @@
 В блоке "ДОБАВИТЬ ДЕЛО" необходимо записать "Дело", которое планируется выполнить. Поле нажатия на кнопку "Добавить" дело попадет в блок "СПИСОК ДЕЛ". Затем дело можно отредактировать, удалить или выполнить. По итогу выполнения дело попадает в блок "ЗАВЕРШЕННЫЕ ДЕЛА". 
 Смотрите рисунок интерфейса ниже: 
 
-![Image alt](https://github.com/DenisShilyaev/to_do_list/raw/master/README/to_do_list.PNG)
+![Image alt](https://github.com/DenisShilyaev/to_do_list/raw/master/FOR_README/to_do_list.PNG)
